@@ -31,17 +31,3 @@ io.on('connection', (socket) => {
 io.listen(4000, () => {
     console.log('server port : 4000');
 });
-
-// io.on('connection', (socket) => {
-//     socket.on('connect', () => {
-//         console.log('socket connect');
-//     });
-//     socket.on('data', (data) => {
-//         console.log(data);
-//     });
-// });
-
-// httpServer.listen(8080, () => {
-//     console.log('server port : 8080');
-//     console.log('server open!!');
-// });
